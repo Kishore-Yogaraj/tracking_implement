@@ -1,0 +1,2 @@
+Invoking command in '/home/kishoreyogaraj/tracking_ws/build/tracking_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kishoreyogaraj/tracking_ws/install/tracking:/opt/ros/humble /usr/bin/cmake --build /home/kishoreyogaraj/tracking_ws/build/tracking_msgs -- -j8 -l8
+Invoked command in '/home/kishoreyogaraj/tracking_ws/build/tracking_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kishoreyogaraj/tracking_ws/install/tracking:/opt/ros/humble /usr/bin/cmake --build /home/kishoreyogaraj/tracking_ws/build/tracking_msgs -- -j8 -l8

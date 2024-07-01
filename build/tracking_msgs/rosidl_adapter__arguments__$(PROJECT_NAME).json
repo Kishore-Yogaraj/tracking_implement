@@ -1,0 +1,7 @@
+{
+  "package_name": "tracking_msgs",
+  "non_idl_tuples": [
+    "/home/kishoreyogaraj/tracking_ws/src/tracking_msgs:msg/TrackedDetection3D.msg",
+    "/home/kishoreyogaraj/tracking_ws/src/tracking_msgs:msg/TrackedDetection3DArray.msg"
+  ]
+}

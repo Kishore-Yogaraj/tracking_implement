@@ -1,0 +1,36 @@
+[0.009s] Invoking command in '/home/kishoreyogaraj/tracking_ws/build/tracking_msgs': CMAKE_PREFIX_PATH=/home/kishoreyogaraj/tracking_ws/install/tracking:/opt/ros/humble /usr/bin/cmake /home/kishoreyogaraj/tracking_ws/src/tracking_msgs -DCMAKE_INSTALL_PREFIX=/home/kishoreyogaraj/tracking_ws/install/tracking_msgs
+[0.065s] -- The C compiler identification is GNU 11.4.0
+[0.125s] -- The CXX compiler identification is GNU 11.4.0
+[0.132s] -- Detecting C compiler ABI info
+[0.197s] -- Detecting C compiler ABI info - done
+[0.205s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.205s] -- Detecting C compile features
+[0.206s] -- Detecting C compile features - done
+[0.209s] -- Detecting CXX compiler ABI info
+[0.288s] -- Detecting CXX compiler ABI info - done
+[0.295s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.296s] -- Detecting CXX compile features
+[0.296s] -- Detecting CXX compile features - done
+[0.298s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.495s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.591s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.593s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.599s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.639s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.673s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.739s] -- Found vision_msgs: 4.1.1 (/opt/ros/humble/share/vision_msgs/cmake)
+[1.024s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:213 (add_custom_target):
+[1.024s]   The target name "$(PROJECT_NAME)" is reserved or not valid for certain
+[1.024s]   CMake features, such as generator expressions, and may result in undefined
+[1.024s]   behavior.
+[1.024s] Call Stack (most recent call first):
+[1.024s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[1.024s] 
+[1.024s] [0m
+[1.024s] [31mCMake Error at CMakeLists.txt:21 (ament_export_dependecies):
+[1.024s]   Unknown CMake command "ament_export_dependecies".
+[1.024s] 
+[1.024s] [0m
+[1.024s] -- Configuring incomplete, errors occurred!
+[1.025s] See also "/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/CMakeFiles/CMakeOutput.log".
+[1.031s] Invoked command in '/home/kishoreyogaraj/tracking_ws/build/tracking_msgs' returned '1': CMAKE_PREFIX_PATH=/home/kishoreyogaraj/tracking_ws/install/tracking:/opt/ros/humble /usr/bin/cmake /home/kishoreyogaraj/tracking_ws/src/tracking_msgs -DCMAKE_INSTALL_PREFIX=/home/kishoreyogaraj/tracking_ws/install/tracking_msgs

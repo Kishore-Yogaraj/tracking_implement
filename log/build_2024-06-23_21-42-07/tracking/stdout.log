@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/tracking/tracking.egg-info/PKG-INFO
+writing dependency_links to ../../build/tracking/tracking.egg-info/dependency_links.txt
+writing entry points to ../../build/tracking/tracking.egg-info/entry_points.txt
+writing requirements to ../../build/tracking/tracking.egg-info/requires.txt
+writing top-level names to ../../build/tracking/tracking.egg-info/top_level.txt
+reading manifest file '../../build/tracking/tracking.egg-info/SOURCES.txt'
+writing manifest file '../../build/tracking/tracking.egg-info/SOURCES.txt'
+running build
+running build_py
+copying tracking/tracker.py -> /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking
+running install
+running install_lib
+copying /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/tracker.py -> /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking
+byte-compiling /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/tracker.py to tracker.cpython-310.pyc
+running install_data
+copying package.xml -> /home/kishoreyogaraj/tracking_ws/install/tracking/share/tracking
+running install_egg_info
+removing '/home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/tracking/tracking.egg-info to /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking-0.0.0-py3.10.egg-info
+running install_scripts
+Installing detection_publisher script to /home/kishoreyogaraj/tracking_ws/install/tracking/lib/tracking
+Installing tracker_node script to /home/kishoreyogaraj/tracking_ws/install/tracking/lib/tracking
+writing list of installed files to '/home/kishoreyogaraj/tracking_ws/build/tracking/install.log'

@@ -1,0 +1,68 @@
+[0.675s] Invoking command in '/home/kishoreyogaraj/tracking_ws/src/tracking': PYTHONPATH=/home/kishoreyogaraj/tracking_ws/build/tracking/prefix_override:/home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tracking build --build-base /home/kishoreyogaraj/tracking_ws/build/tracking/build install --record /home/kishoreyogaraj/tracking_ws/build/tracking/install.log --single-version-externally-managed install_data
+[0.931s] running egg_info
+[0.931s] creating ../../build/tracking/tracking.egg-info
+[0.931s] writing ../../build/tracking/tracking.egg-info/PKG-INFO
+[0.932s] writing dependency_links to ../../build/tracking/tracking.egg-info/dependency_links.txt
+[0.932s] writing entry points to ../../build/tracking/tracking.egg-info/entry_points.txt
+[0.932s] writing requirements to ../../build/tracking/tracking.egg-info/requires.txt
+[0.932s] writing top-level names to ../../build/tracking/tracking.egg-info/top_level.txt
+[0.932s] writing manifest file '../../build/tracking/tracking.egg-info/SOURCES.txt'
+[0.934s] reading manifest file '../../build/tracking/tracking.egg-info/SOURCES.txt'
+[0.935s] writing manifest file '../../build/tracking/tracking.egg-info/SOURCES.txt'
+[0.935s] running build
+[0.935s] running build_py
+[0.935s] creating /home/kishoreyogaraj/tracking_ws/build/tracking/build
+[0.935s] creating /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib
+[0.935s] creating /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking
+[0.935s] copying tracking/tracker.py -> /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking
+[0.935s] copying tracking/__init__.py -> /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking
+[0.936s] creating /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core
+[0.936s] copying tracking/core/bbox.py -> /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core
+[0.936s] copying tracking/core/algorithms.py -> /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core
+[0.936s] copying tracking/core/__init__.py -> /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core
+[0.936s] copying tracking/core/ab3dmot.py -> /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core
+[0.936s] copying tracking/core/covariance.py -> /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core
+[0.936s] creating /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core/utils
+[0.936s] copying tracking/core/utils/geometry_utils.py -> /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core/utils
+[0.936s] copying tracking/core/utils/ros_utils.py -> /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core/utils
+[0.937s] copying tracking/core/utils/__init__.py -> /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core/utils
+[0.937s] copying tracking/core/utils/config.py -> /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core/utils
+[0.937s] running install
+[0.937s] running install_lib
+[0.938s] creating /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking
+[0.938s] copying /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/tracker.py -> /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking
+[0.938s] copying /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/__init__.py -> /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking
+[0.938s] creating /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core
+[0.938s] copying /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core/bbox.py -> /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core
+[0.938s] copying /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core/algorithms.py -> /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core
+[0.938s] copying /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core/__init__.py -> /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core
+[0.939s] copying /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core/ab3dmot.py -> /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core
+[0.939s] copying /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core/covariance.py -> /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core
+[0.939s] creating /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core/utils
+[0.939s] copying /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core/utils/geometry_utils.py -> /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core/utils
+[0.939s] copying /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core/utils/ros_utils.py -> /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core/utils
+[0.939s] copying /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core/utils/__init__.py -> /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core/utils
+[0.939s] copying /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core/utils/config.py -> /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core/utils
+[0.939s] byte-compiling /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/tracker.py to tracker.cpython-310.pyc
+[0.940s] byte-compiling /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/__init__.py to __init__.cpython-310.pyc
+[0.940s] byte-compiling /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core/bbox.py to bbox.cpython-310.pyc
+[0.940s] byte-compiling /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core/algorithms.py to algorithms.cpython-310.pyc
+[0.941s] byte-compiling /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core/__init__.py to __init__.cpython-310.pyc
+[0.941s] byte-compiling /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core/ab3dmot.py to ab3dmot.cpython-310.pyc
+[0.944s] byte-compiling /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core/covariance.py to covariance.cpython-310.pyc
+[0.945s] byte-compiling /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core/utils/geometry_utils.py to geometry_utils.cpython-310.pyc
+[0.946s] byte-compiling /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core/utils/ros_utils.py to ros_utils.cpython-310.pyc
+[0.947s] byte-compiling /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core/utils/__init__.py to __init__.cpython-310.pyc
+[0.947s] byte-compiling /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core/utils/config.py to config.cpython-310.pyc
+[0.947s] running install_data
+[0.947s] creating /home/kishoreyogaraj/tracking_ws/install/tracking/share/ament_index
+[0.947s] creating /home/kishoreyogaraj/tracking_ws/install/tracking/share/ament_index/resource_index
+[0.948s] creating /home/kishoreyogaraj/tracking_ws/install/tracking/share/ament_index/resource_index/packages
+[0.948s] copying resource/tracking -> /home/kishoreyogaraj/tracking_ws/install/tracking/share/ament_index/resource_index/packages
+[0.948s] copying package.xml -> /home/kishoreyogaraj/tracking_ws/install/tracking/share/tracking
+[0.948s] running install_egg_info
+[0.949s] Copying ../../build/tracking/tracking.egg-info to /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking-0.0.0-py3.10.egg-info
+[0.950s] running install_scripts
+[0.972s] Installing tracker_node script to /home/kishoreyogaraj/tracking_ws/install/tracking/lib/tracking
+[0.973s] writing list of installed files to '/home/kishoreyogaraj/tracking_ws/build/tracking/install.log'
+[0.997s] Invoked command in '/home/kishoreyogaraj/tracking_ws/src/tracking' returned '0': PYTHONPATH=/home/kishoreyogaraj/tracking_ws/build/tracking/prefix_override:/home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tracking build --build-base /home/kishoreyogaraj/tracking_ws/build/tracking/build install --record /home/kishoreyogaraj/tracking_ws/build/tracking/install.log --single-version-externally-managed install_data

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tracking_msgs/msg/TrackedObstacleState.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "geometry_msgs/msg/Twist.idl"
+#include "std_msgs/msg/Header.idl"
+
+module tracking_msgs {
+  module msg {
+    struct TrackedObstacleState {
+      std_msgs::msg::Header header;
+
+      geometry_msgs::msg::Pose pose;
+
+      geometry_msgs::msg::Twist velocity;
+    };
+  };
+};

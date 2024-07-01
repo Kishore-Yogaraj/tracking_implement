@@ -1,0 +1,55 @@
+[0.292s] Invoking command in '/home/kishoreyogaraj/tracking_ws/build/tracking_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kishoreyogaraj/tracking_ws/install/tracking:/opt/ros/humble /usr/bin/cmake --build /home/kishoreyogaraj/tracking_ws/build/tracking_msgs -- -j8 -l8
+[0.325s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.465s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.466s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.469s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.501s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.530s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.596s] -- Found vision_msgs: 4.1.1 (/opt/ros/humble/share/vision_msgs/cmake)
+[0.909s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.909s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.909s]   tracking_msgs --arguments-file
+[0.909s]   /home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_adapter__arguments__tracking_msgs.json
+[0.909s]   --output-dir
+[0.909s]   /home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_adapter/tracking_msgs
+[0.910s]   --output-file
+[0.910s]   /home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_adapter/tracking_msgs.idls)
+[0.910s]   returned error code 1:
+[0.910s] 
+[0.910s]   Error processing 'unit32 object_id' of 'tracking_msgs/Obstacle': ''unit32'
+[0.910s]   is an invalid message name.  It should have the pattern
+[0.910s]   '^[A-Z][A-Za-z0-9]*$''
+[0.910s] 
+[0.910s]   Traceback (most recent call last):
+[0.910s] 
+[0.910s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.910s]       return _run_code(code, main_globals, None,
+[0.910s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.910s]       exec(code, run_globals)
+[0.910s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.910s]       sys.exit(main())
+[0.910s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.910s]       abs_idl_file = convert_to_idl(
+[0.911s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.911s]       return convert_msg_to_idl(
+[0.911s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.911s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.911s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 520, in parse_message_string
+[0.911s]       Type(type_string, context_package_name=pkg_name),
+[0.911s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 277, in __init__
+[0.911s]       super(Type, self).__init__(
+[0.911s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[0.911s]       raise InvalidResourceName(
+[0.911s] 
+[0.911s]   rosidl_adapter.parser.InvalidResourceName: 'unit32' is an invalid message
+[0.911s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.911s] 
+[0.911s] Call Stack (most recent call first):
+[0.911s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.911s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[0.912s] 
+[0.912s] [0m
+[0.912s] -- Configuring incomplete, errors occurred!
+[0.912s] See also "/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/CMakeFiles/CMakeOutput.log".
+[0.916s] gmake: *** [Makefile:963: cmake_check_build_system] Error 1
+[0.918s] Invoked command in '/home/kishoreyogaraj/tracking_ws/build/tracking_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kishoreyogaraj/tracking_ws/install/tracking:/opt/ros/humble /usr/bin/cmake --build /home/kishoreyogaraj/tracking_ws/build/tracking_msgs -- -j8 -l8

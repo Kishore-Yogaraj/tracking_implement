@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tracking_msgs/msg/Obstacle.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseWithCovariance.idl"
+#include "geometry_msgs/msg/TwistWithCovariance.idl"
+#include "std_msgs/msg/Header.idl"
+
+module tracking_msgs {
+  module msg {
+    struct Obstacle {
+      std_msgs::msg::Header header;
+
+      string label;
+
+      float confidence;
+
+      geometry_msgs::msg::PoseWithCovariance pose;
+
+      geometry_msgs::msg::TwistWithCovariance twist;
+
+      double width_along_x_axis;
+
+      double height_along_y_axis;
+
+      double depth_along_z_axis;
+
+      uint32 object_id;
+    };
+  };
+};

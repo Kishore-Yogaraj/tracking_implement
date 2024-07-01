@@ -1,0 +1,25 @@
+[0.676s] Invoking command in '/home/kishoreyogaraj/tracking_ws/src/tracking': PYTHONPATH=/home/kishoreyogaraj/tracking_ws/build/tracking/prefix_override:/home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tracking build --build-base /home/kishoreyogaraj/tracking_ws/build/tracking/build install --record /home/kishoreyogaraj/tracking_ws/build/tracking/install.log --single-version-externally-managed install_data
+[0.941s] running egg_info
+[0.942s] writing ../../build/tracking/tracking.egg-info/PKG-INFO
+[0.942s] writing dependency_links to ../../build/tracking/tracking.egg-info/dependency_links.txt
+[0.942s] writing entry points to ../../build/tracking/tracking.egg-info/entry_points.txt
+[0.942s] writing requirements to ../../build/tracking/tracking.egg-info/requires.txt
+[0.942s] writing top-level names to ../../build/tracking/tracking.egg-info/top_level.txt
+[0.945s] reading manifest file '../../build/tracking/tracking.egg-info/SOURCES.txt'
+[0.946s] writing manifest file '../../build/tracking/tracking.egg-info/SOURCES.txt'
+[0.946s] running build
+[0.946s] running build_py
+[0.946s] copying tracking/tracker.py -> /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking
+[0.947s] running install
+[0.948s] running install_lib
+[0.949s] copying /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/tracker.py -> /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking
+[0.949s] byte-compiling /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/tracker.py to tracker.cpython-310.pyc
+[0.950s] running install_data
+[0.950s] running install_egg_info
+[0.952s] removing '/home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking-0.0.0-py3.10.egg-info' (and everything under it)
+[0.952s] Copying ../../build/tracking/tracking.egg-info to /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking-0.0.0-py3.10.egg-info
+[0.953s] running install_scripts
+[0.974s] Installing detection_publisher script to /home/kishoreyogaraj/tracking_ws/install/tracking/lib/tracking
+[0.974s] Installing tracker_node script to /home/kishoreyogaraj/tracking_ws/install/tracking/lib/tracking
+[0.975s] writing list of installed files to '/home/kishoreyogaraj/tracking_ws/build/tracking/install.log'
+[0.999s] Invoked command in '/home/kishoreyogaraj/tracking_ws/src/tracking' returned '0': PYTHONPATH=/home/kishoreyogaraj/tracking_ws/build/tracking/prefix_override:/home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tracking build --build-base /home/kishoreyogaraj/tracking_ws/build/tracking/build install --record /home/kishoreyogaraj/tracking_ws/build/tracking/install.log --single-version-externally-managed install_data

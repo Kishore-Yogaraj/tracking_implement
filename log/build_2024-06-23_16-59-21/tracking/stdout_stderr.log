@@ -1,0 +1,66 @@
+running egg_info
+creating ../../build/tracking/tracking.egg-info
+writing ../../build/tracking/tracking.egg-info/PKG-INFO
+writing dependency_links to ../../build/tracking/tracking.egg-info/dependency_links.txt
+writing entry points to ../../build/tracking/tracking.egg-info/entry_points.txt
+writing requirements to ../../build/tracking/tracking.egg-info/requires.txt
+writing top-level names to ../../build/tracking/tracking.egg-info/top_level.txt
+writing manifest file '../../build/tracking/tracking.egg-info/SOURCES.txt'
+reading manifest file '../../build/tracking/tracking.egg-info/SOURCES.txt'
+writing manifest file '../../build/tracking/tracking.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kishoreyogaraj/tracking_ws/build/tracking/build
+creating /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib
+creating /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking
+copying tracking/tracker.py -> /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking
+copying tracking/__init__.py -> /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking
+creating /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core
+copying tracking/core/bbox.py -> /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core
+copying tracking/core/algorithms.py -> /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core
+copying tracking/core/__init__.py -> /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core
+copying tracking/core/ab3dmot.py -> /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core
+copying tracking/core/covariance.py -> /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core
+creating /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core/utils
+copying tracking/core/utils/geometry_utils.py -> /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core/utils
+copying tracking/core/utils/ros_utils.py -> /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core/utils
+copying tracking/core/utils/__init__.py -> /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core/utils
+copying tracking/core/utils/config.py -> /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core/utils
+running install
+running install_lib
+creating /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking
+copying /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/tracker.py -> /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking
+copying /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/__init__.py -> /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking
+creating /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core
+copying /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core/bbox.py -> /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core
+copying /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core/algorithms.py -> /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core
+copying /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core/__init__.py -> /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core
+copying /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core/ab3dmot.py -> /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core
+copying /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core/covariance.py -> /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core
+creating /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core/utils
+copying /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core/utils/geometry_utils.py -> /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core/utils
+copying /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core/utils/ros_utils.py -> /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core/utils
+copying /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core/utils/__init__.py -> /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core/utils
+copying /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/core/utils/config.py -> /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core/utils
+byte-compiling /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/tracker.py to tracker.cpython-310.pyc
+byte-compiling /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core/bbox.py to bbox.cpython-310.pyc
+byte-compiling /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core/algorithms.py to algorithms.cpython-310.pyc
+byte-compiling /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core/ab3dmot.py to ab3dmot.cpython-310.pyc
+byte-compiling /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core/covariance.py to covariance.cpython-310.pyc
+byte-compiling /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core/utils/geometry_utils.py to geometry_utils.cpython-310.pyc
+byte-compiling /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core/utils/ros_utils.py to ros_utils.cpython-310.pyc
+byte-compiling /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core/utils/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/core/utils/config.py to config.cpython-310.pyc
+running install_data
+creating /home/kishoreyogaraj/tracking_ws/install/tracking/share/ament_index
+creating /home/kishoreyogaraj/tracking_ws/install/tracking/share/ament_index/resource_index
+creating /home/kishoreyogaraj/tracking_ws/install/tracking/share/ament_index/resource_index/packages
+copying resource/tracking -> /home/kishoreyogaraj/tracking_ws/install/tracking/share/ament_index/resource_index/packages
+copying package.xml -> /home/kishoreyogaraj/tracking_ws/install/tracking/share/tracking
+running install_egg_info
+Copying ../../build/tracking/tracking.egg-info to /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking-0.0.0-py3.10.egg-info
+running install_scripts
+Installing tracker_node script to /home/kishoreyogaraj/tracking_ws/install/tracking/lib/tracking
+writing list of installed files to '/home/kishoreyogaraj/tracking_ws/build/tracking/install.log'

@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tracking_msgs/msg/TrackedDetection3D.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Twist.idl"
+#include "std_msgs/msg/Header.idl"
+#include "vision_msgs/msg/Detection3D.idl"
+
+module tracking_msgs {
+  module msg {
+    struct TrackedDetection3D {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "ID of the detection being tracked")
+      int64 tracked_id;
+
+      @verbatim (language="comment", text=
+        "The bounding box and current position of the detection in question")
+      vision_msgs::msg::Detection3D detection;
+
+      @verbatim (language="comment", text=
+        "Velocity of the detection")
+      geometry_msgs::msg::Twist velocity;
+
+      @verbatim (language="comment", text=
+        "History of Observations (duration is configurable) The last element in observation_history corresponds to the current state")
+      sequence<vision_msgs::msg::Detection3D> observation_history;
+
+      @verbatim (language="comment", text=
+        "Linear future predictions based on velocity and position")
+      sequence<vision_msgs::msg::Detection3D> predicted_states;
+    };
+  };
+};

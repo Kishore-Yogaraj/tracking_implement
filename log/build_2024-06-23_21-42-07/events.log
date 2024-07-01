@@ -1,0 +1,339 @@
+[0.000000] (-) TimerEvent: {}
+[0.000156] (tracking) JobQueued: {'identifier': 'tracking', 'dependencies': OrderedDict()}
+[0.000203] (tracking_msgs) JobQueued: {'identifier': 'tracking_msgs', 'dependencies': OrderedDict()}
+[0.000985] (tracking) JobStarted: {'identifier': 'tracking'}
+[0.013402] (tracking_msgs) JobStarted: {'identifier': 'tracking_msgs'}
+[0.099731] (-) TimerEvent: {}
+[0.200016] (-) TimerEvent: {}
+[0.301457] (-) TimerEvent: {}
+[0.382752] (tracking_msgs) JobProgress: {'identifier': 'tracking_msgs', 'progress': 'cmake'}
+[0.384767] (tracking_msgs) JobProgress: {'identifier': 'tracking_msgs', 'progress': 'build'}
+[0.384823] (tracking_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kishoreyogaraj/tracking_ws/build/tracking_msgs', '--', '-j8', '-l8'], 'cwd': '/home/kishoreyogaraj/tracking_ws/build/tracking_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'kishoreyogaraj'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kishoreyogaraj'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/kishoreyogaraj/tracking_ws/src'), ('TERM_PROGRAM_VERSION', '1.90.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1869'), ('SYSTEMD_EXEC_PID', '2042'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3689'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kishoreyogaraj/tracking_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kishoreyogaraj'), ('JOURNAL_STREAM', '8:34855'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kishoreyogaraj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kishoreyogaraj/.local/bin:/opt/ros/humble/bin:/home/kishoreyogaraj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kishoreyogaraj-MacBookPro:@/tmp/.ICE-unix/2010,unix/kishoreyogaraj-MacBookPro:/tmp/.ICE-unix/2010'), ('INVOCATION_ID', '74f8b83d432f42e78423cb6fb71b602a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4RIZP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a3a6b15ac3.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kishoreyogaraj/tracking_ws/install/tracking:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kishoreyogaraj/tracking_ws/build/tracking_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kishoreyogaraj/tracking_ws/install/tracking:/opt/ros/humble')]), 'shell': False}
+[0.401566] (-) TimerEvent: {}
+[0.450668] (tracking_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.501690] (-) TimerEvent: {}
+[0.601982] (-) TimerEvent: {}
+[0.623308] (tracking_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.627531] (tracking_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.634787] (tracking_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.691039] (tracking_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.702075] (-) TimerEvent: {}
+[0.726151] (tracking_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.799560] (tracking_msgs) StdoutLine: {'line': b'-- Found vision_msgs: 4.1.1 (/opt/ros/humble/share/vision_msgs/cmake)\n'}
+[0.802164] (-) TimerEvent: {}
+[0.871865] (tracking) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/tracking', 'build', '--build-base', '/home/kishoreyogaraj/tracking_ws/build/tracking/build', 'install', '--record', '/home/kishoreyogaraj/tracking_ws/build/tracking/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kishoreyogaraj/tracking_ws/src/tracking', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_CA:en', 'USER': 'kishoreyogaraj', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kishoreyogaraj', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/kishoreyogaraj/tracking_ws/src', 'TERM_PROGRAM_VERSION': '1.90.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1869', 'SYSTEMD_EXEC_PID': '2042', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3689', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kishoreyogaraj/tracking_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kishoreyogaraj', 'JOURNAL_STREAM': '8:34855', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kishoreyogaraj', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/kishoreyogaraj/.local/bin:/opt/ros/humble/bin:/home/kishoreyogaraj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kishoreyogaraj-MacBookPro:@/tmp/.ICE-unix/2010,unix/kishoreyogaraj-MacBookPro:/tmp/.ICE-unix/2010', 'INVOCATION_ID': '74f8b83d432f42e78423cb6fb71b602a', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_CA.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4RIZP2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-a3a6b15ac3.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kishoreyogaraj/tracking_ws/install/tracking:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kishoreyogaraj/tracking_ws/build/tracking', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kishoreyogaraj/tracking_ws/build/tracking/prefix_override:/home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages:/home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.902253] (-) TimerEvent: {}
+[1.002491] (-) TimerEvent: {}
+[1.102724] (-) TimerEvent: {}
+[1.138223] (tracking) StdoutLine: {'line': b'running egg_info\n'}
+[1.138840] (tracking) StdoutLine: {'line': b'writing ../../build/tracking/tracking.egg-info/PKG-INFO\n'}
+[1.139149] (tracking) StdoutLine: {'line': b'writing dependency_links to ../../build/tracking/tracking.egg-info/dependency_links.txt\n'}
+[1.139364] (tracking) StdoutLine: {'line': b'writing entry points to ../../build/tracking/tracking.egg-info/entry_points.txt\n'}
+[1.139457] (tracking) StdoutLine: {'line': b'writing requirements to ../../build/tracking/tracking.egg-info/requires.txt\n'}
+[1.139622] (tracking) StdoutLine: {'line': b'writing top-level names to ../../build/tracking/tracking.egg-info/top_level.txt\n'}
+[1.141840] (tracking) StdoutLine: {'line': b"reading manifest file '../../build/tracking/tracking.egg-info/SOURCES.txt'\n"}
+[1.143095] (tracking) StdoutLine: {'line': b"writing manifest file '../../build/tracking/tracking.egg-info/SOURCES.txt'\n"}
+[1.143315] (tracking) StdoutLine: {'line': b'running build\n'}
+[1.143484] (tracking) StdoutLine: {'line': b'running build_py\n'}
+[1.143573] (tracking) StdoutLine: {'line': b'copying tracking/tracker.py -> /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking\n'}
+[1.144596] (tracking) StdoutLine: {'line': b'running install\n'}
+[1.144894] (tracking) StdoutLine: {'line': b'running install_lib\n'}
+[1.145890] (tracking) StdoutLine: {'line': b'copying /home/kishoreyogaraj/tracking_ws/build/tracking/build/lib/tracking/tracker.py -> /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking\n'}
+[1.147738] (tracking) StdoutLine: {'line': b'byte-compiling /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking/tracker.py to tracker.cpython-310.pyc\n'}
+[1.149058] (tracking) StdoutLine: {'line': b'running install_data\n'}
+[1.149318] (tracking) StdoutLine: {'line': b'copying package.xml -> /home/kishoreyogaraj/tracking_ws/install/tracking/share/tracking\n'}
+[1.149484] (tracking) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.150906] (tracking) StdoutLine: {'line': b"removing '/home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.151180] (tracking) StdoutLine: {'line': b'Copying ../../build/tracking/tracking.egg-info to /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking-0.0.0-py3.10.egg-info\n'}
+[1.152192] (tracking) StdoutLine: {'line': b'running install_scripts\n'}
+[1.172066] (tracking) StdoutLine: {'line': b'Installing detection_publisher script to /home/kishoreyogaraj/tracking_ws/install/tracking/lib/tracking\n'}
+[1.172314] (tracking) StdoutLine: {'line': b'Installing tracker_node script to /home/kishoreyogaraj/tracking_ws/install/tracking/lib/tracking\n'}
+[1.172922] (tracking) StdoutLine: {'line': b"writing list of installed files to '/home/kishoreyogaraj/tracking_ws/build/tracking/install.log'\n"}
+[1.198080] (tracking) CommandEnded: {'returncode': 0}
+[1.202871] (-) TimerEvent: {}
+[1.216399] (tracking) JobEnded: {'identifier': 'tracking', 'rc': 0}
+[1.295518] (tracking_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.302958] (-) TimerEvent: {}
+[1.403189] (-) TimerEvent: {}
+[1.503482] (-) TimerEvent: {}
+[1.602114] (tracking_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.603567] (-) TimerEvent: {}
+[1.703847] (-) TimerEvent: {}
+[1.804152] (-) TimerEvent: {}
+[1.904404] (-) TimerEvent: {}
+[1.966510] (tracking_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.990222] (tracking_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.004516] (-) TimerEvent: {}
+[2.015637] (tracking_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.015806] (tracking_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.015924] (tracking_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.074239] (tracking_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.104610] (-) TimerEvent: {}
+[2.131249] (tracking_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.134505] (tracking_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/kishoreyogaraj/tracking_ws/build/tracking_msgs\n'}
+[2.160215] (tracking_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.173452] (tracking_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.184353] (tracking_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_tracking_msgs\n'}
+[2.204712] (-) TimerEvent: {}
+[2.305019] (-) TimerEvent: {}
+[2.405275] (-) TimerEvent: {}
+[2.500154] (tracking_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.500922] (tracking_msgs) StdoutLine: {'line': b'writing tracking_msgs.egg-info/PKG-INFO\n'}
+[2.501110] (tracking_msgs) StdoutLine: {'line': b'writing dependency_links to tracking_msgs.egg-info/dependency_links.txt\n'}
+[2.501303] (tracking_msgs) StdoutLine: {'line': b'writing top-level names to tracking_msgs.egg-info/top_level.txt\n'}
+[2.503469] (tracking_msgs) StdoutLine: {'line': b"reading manifest file 'tracking_msgs.egg-info/SOURCES.txt'\n"}
+[2.504695] (tracking_msgs) StdoutLine: {'line': b"writing manifest file 'tracking_msgs.egg-info/SOURCES.txt'\n"}
+[2.505340] (-) TimerEvent: {}
+[2.531204] (tracking_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_tracking_msgs_egg\n'}
+[2.561105] (tracking_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tracking_msgs__rosidl_generator_c\x1b[0m\n'}
+[2.567916] (tracking_msgs) StdoutLine: {'line': b'[  5%] Built target tracking_msgs__cpp\n'}
+[2.576021] (tracking_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/tracking_msgs__rosidl_generator_c.dir/rosidl_generator_c/tracking_msgs/msg/detail/tracked_detection3_d__functions.c.o\x1b[0m\n'}
+[2.578635] (tracking_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.579032] (tracking_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.580430] (tracking_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/tracking_msgs__rosidl_generator_c.dir/rosidl_generator_c/tracking_msgs/msg/detail/tracked_detection3_d_array__functions.c.o\x1b[0m\n'}
+[2.582162] (tracking_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.605450] (-) TimerEvent: {}
+[2.668214] (tracking_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libtracking_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[2.705538] (-) TimerEvent: {}
+[2.710088] (tracking_msgs) StdoutLine: {'line': b'[ 20%] Built target tracking_msgs__rosidl_generator_c\n'}
+[2.724082] (tracking_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.724728] (tracking_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.725335] (tracking_msgs) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.805642] (-) TimerEvent: {}
+[2.905982] (-) TimerEvent: {}
+[3.006282] (-) TimerEvent: {}
+[3.010504] (tracking_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tracking_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.044374] (tracking_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tracking_msgs/msg/detail/dds_fastrtps/tracked_detection3_d_array__type_support.cpp.o\x1b[0m\n'}
+[3.046059] (tracking_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tracking_msgs/msg/detail/dds_fastrtps/tracked_detection3_d__type_support.cpp.o\x1b[0m\n'}
+[3.106381] (-) TimerEvent: {}
+[3.107219] (tracking_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tracking_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.145319] (tracking_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tracking_msgs/msg/tracked_detection3_d__type_support.cpp.o\x1b[0m\n'}
+[3.151263] (tracking_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tracking_msgs/msg/tracked_detection3_d_array__type_support.cpp.o\x1b[0m\n'}
+[3.165089] (tracking_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tracking_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.188818] (tracking_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tracking_msgs/msg/detail/tracked_detection3_d__type_support.cpp.o\x1b[0m\n'}
+[3.206598] (-) TimerEvent: {}
+[3.294746] (tracking_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tracking_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[3.306695] (-) TimerEvent: {}
+[3.319653] (tracking_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tracking_msgs/msg/tracked_detection3_d__type_support.cpp.o\x1b[0m\n'}
+[3.363205] (tracking_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tracking_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[3.379168] (tracking_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tracking_msgs/msg/tracked_detection3_d_array__type_support.cpp.o\x1b[0m\n'}
+[3.397221] (tracking_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/tracking_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tracking_msgs/msg/detail/tracked_detection3_d__type_support.c.o\x1b[0m\n'}
+[3.406793] (-) TimerEvent: {}
+[3.413439] (tracking_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tracking_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.445317] (tracking_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libtracking_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.448504] (tracking_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tracking_msgs/msg/detail/tracked_detection3_d__type_support_c.cpp.o\x1b[0m\n'}
+[3.506911] (-) TimerEvent: {}
+[3.586399] (tracking_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/tracking_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tracking_msgs/msg/detail/tracked_detection3_d_array__type_support.c.o\x1b[0m\n'}
+[3.607056] (-) TimerEvent: {}
+[3.612046] (tracking_msgs) StdoutLine: {'line': b'[ 56%] Built target tracking_msgs__rosidl_typesupport_c\n'}
+[3.642489] (tracking_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tracking_msgs/msg/detail/tracked_detection3_d_array__type_support_c.cpp.o\x1b[0m\n'}
+[3.662024] (tracking_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tracking_msgs/msg/detail/tracked_detection3_d_array__type_support.cpp.o\x1b[0m\n'}
+[3.707172] (-) TimerEvent: {}
+[3.715303] (tracking_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libtracking_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.780157] (tracking_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libtracking_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.807295] (-) TimerEvent: {}
+[3.832080] (tracking_msgs) StdoutLine: {'line': b'[ 66%] Built target tracking_msgs__rosidl_typesupport_introspection_c\n'}
+[3.869827] (tracking_msgs) StdoutLine: {'line': b'[ 66%] Built target tracking_msgs__rosidl_typesupport_cpp\n'}
+[3.907409] (-) TimerEvent: {}
+[4.007758] (-) TimerEvent: {}
+[4.052731] (tracking_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libtracking_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.107856] (-) TimerEvent: {}
+[4.159513] (tracking_msgs) StdoutLine: {'line': b'[ 69%] Built target tracking_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.181623] (tracking_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libtracking_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.207956] (-) TimerEvent: {}
+[4.264539] (tracking_msgs) StdoutLine: {'line': b'[ 71%] Built target tracking_msgs__rosidl_typesupport_fastrtps_c\n'}
+[4.308108] (-) TimerEvent: {}
+[4.408671] (-) TimerEvent: {}
+[4.509013] (-) TimerEvent: {}
+[4.520117] (tracking_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libtracking_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.603237] (tracking_msgs) StdoutLine: {'line': b'[ 74%] Built target tracking_msgs__rosidl_typesupport_introspection_cpp\n'}
+[4.609103] (-) TimerEvent: {}
+[4.624201] (tracking_msgs) StdoutLine: {'line': b'[ 74%] Built target tracking_msgs\n'}
+[4.644561] (tracking_msgs) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.709205] (-) TimerEvent: {}
+[4.809483] (-) TimerEvent: {}
+[4.909723] (-) TimerEvent: {}
+[5.009975] (-) TimerEvent: {}
+[5.110208] (-) TimerEvent: {}
+[5.210465] (-) TimerEvent: {}
+[5.212913] (tracking_msgs) StdoutLine: {'line': b'[ 76%] Built target tracking_msgs__py\n'}
+[5.223868] (tracking_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tracking_msgs__rosidl_generator_py\x1b[0m\n'}
+[5.240447] (tracking_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/tracking_msgs__rosidl_generator_py.dir/rosidl_generator_py/tracking_msgs/msg/_tracked_detection3_d_s.c.o\x1b[0m\n'}
+[5.240748] (tracking_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/tracking_msgs__rosidl_generator_py.dir/rosidl_generator_py/tracking_msgs/msg/_tracked_detection3_d_array_s.c.o\x1b[0m\n'}
+[5.310567] (-) TimerEvent: {}
+[5.381025] (tracking_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tracking_msgs/libtracking_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[5.410657] (-) TimerEvent: {}
+[5.424464] (tracking_msgs) StdoutLine: {'line': b'[ 84%] Built target tracking_msgs__rosidl_generator_py\n'}
+[5.434903] (tracking_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tracking_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[5.435069] (tracking_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tracking_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[5.435963] (tracking_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tracking_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[5.448092] (tracking_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/tracking_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tracking_msgs/_tracking_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.449332] (tracking_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/tracking_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tracking_msgs/_tracking_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.449812] (tracking_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/tracking_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tracking_msgs/_tracking_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.510774] (-) TimerEvent: {}
+[5.578365] (tracking_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tracking_msgs/tracking_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.578664] (tracking_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tracking_msgs/tracking_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.582155] (tracking_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tracking_msgs/tracking_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.610900] (-) TimerEvent: {}
+[5.633578] (tracking_msgs) StdoutLine: {'line': b'[100%] Built target tracking_msgs__rosidl_typesupport_c__pyext\n'}
+[5.641419] (tracking_msgs) StdoutLine: {'line': b'[100%] Built target tracking_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[5.642352] (tracking_msgs) StdoutLine: {'line': b'[100%] Built target tracking_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.654580] (tracking_msgs) CommandEnded: {'returncode': 0}
+[5.710969] (-) TimerEvent: {}
+[5.732285] (tracking_msgs) JobProgress: {'identifier': 'tracking_msgs', 'progress': 'install'}
+[5.741473] (tracking_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kishoreyogaraj/tracking_ws/build/tracking_msgs'], 'cwd': '/home/kishoreyogaraj/tracking_ws/build/tracking_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'kishoreyogaraj'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kishoreyogaraj'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/kishoreyogaraj/tracking_ws/src'), ('TERM_PROGRAM_VERSION', '1.90.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1869'), ('SYSTEMD_EXEC_PID', '2042'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3689'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kishoreyogaraj/tracking_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kishoreyogaraj'), ('JOURNAL_STREAM', '8:34855'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kishoreyogaraj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kishoreyogaraj/.local/bin:/opt/ros/humble/bin:/home/kishoreyogaraj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kishoreyogaraj-MacBookPro:@/tmp/.ICE-unix/2010,unix/kishoreyogaraj-MacBookPro:/tmp/.ICE-unix/2010'), ('INVOCATION_ID', '74f8b83d432f42e78423cb6fb71b602a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4RIZP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a3a6b15ac3.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kishoreyogaraj/tracking_ws/install/tracking:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kishoreyogaraj/tracking_ws/build/tracking_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kishoreyogaraj/tracking_ws/install/tracking:/opt/ros/humble')]), 'shell': False}
+[5.749638] (tracking_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.750071] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/ament_index/resource_index/rosidl_interfaces/tracking_msgs\n'}
+[5.750274] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs\n'}
+[5.750428] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg\n'}
+[5.750672] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/detail\n'}
+[5.750830] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/detail/tracked_detection3_d_array__functions.c\n'}
+[5.751064] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/detail/tracked_detection3_d_array__functions.h\n'}
+[5.751287] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/detail/tracked_detection3_d__type_support.h\n'}
+[5.751424] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/detail/tracked_detection3_d__functions.h\n'}
+[5.751564] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/detail/tracked_detection3_d__functions.c\n'}
+[5.751727] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/detail/tracked_detection3_d_array__struct.h\n'}
+[5.751913] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/detail/tracked_detection3_d_array__type_support.h\n'}
+[5.752075] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/detail/tracked_detection3_d__struct.h\n'}
+[5.752233] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/tracked_detection3_d.h\n'}
+[5.752381] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.752512] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/tracked_detection3_d_array.h\n'}
+[5.752995] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/environment/library_path.sh\n'}
+[5.753122] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/environment/library_path.dsv\n'}
+[5.753853] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/lib/libtracking_msgs__rosidl_generator_c.so\n'}
+[5.754824] (tracking_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/kishoreyogaraj/tracking_ws/install/tracking_msgs/lib/libtracking_msgs__rosidl_generator_c.so" to ""\n'}
+[5.754963] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs\n'}
+[5.755031] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg\n'}
+[5.755137] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/detail\n'}
+[5.755201] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/detail/tracked_detection3_d_array__rosidl_typesupport_fastrtps_c.h\n'}
+[5.755275] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/detail/tracked_detection3_d__rosidl_typesupport_fastrtps_c.h\n'}
+[5.755335] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.756032] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/lib/libtracking_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[5.756816] (tracking_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/kishoreyogaraj/tracking_ws/install/tracking_msgs/lib/libtracking_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.756937] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs\n'}
+[5.757098] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg\n'}
+[5.757335] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/detail\n'}
+[5.757517] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/detail/tracked_detection3_d_array__type_support.c\n'}
+[5.757614] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/detail/tracked_detection3_d_array__rosidl_typesupport_introspection_c.h\n'}
+[5.757685] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/detail/tracked_detection3_d__rosidl_typesupport_introspection_c.h\n'}
+[5.757749] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/detail/tracked_detection3_d__type_support.c\n'}
+[5.757810] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.757988] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/lib/libtracking_msgs__rosidl_typesupport_introspection_c.so\n'}
+[5.758634] (tracking_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/kishoreyogaraj/tracking_ws/install/tracking_msgs/lib/libtracking_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.758972] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/lib/libtracking_msgs__rosidl_typesupport_c.so\n'}
+[5.759480] (tracking_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/kishoreyogaraj/tracking_ws/install/tracking_msgs/lib/libtracking_msgs__rosidl_typesupport_c.so" to ""\n'}
+[5.759671] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs\n'}
+[5.759743] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg\n'}
+[5.759891] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/detail\n'}
+[5.759994] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/detail/tracked_detection3_d__traits.hpp\n'}
+[5.760065] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/detail/tracked_detection3_d__builder.hpp\n'}
+[5.760178] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/detail/tracked_detection3_d_array__traits.hpp\n'}
+[5.760244] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/detail/tracked_detection3_d__struct.hpp\n'}
+[5.760359] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/detail/tracked_detection3_d_array__builder.hpp\n'}
+[5.760460] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/detail/tracked_detection3_d_array__struct.hpp\n'}
+[5.760580] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/tracked_detection3_d.hpp\n'}
+[5.760736] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/tracked_detection3_d_array.hpp\n'}
+[5.760926] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs\n'}
+[5.761009] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg\n'}
+[5.761102] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/detail\n'}
+[5.761190] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/detail/dds_fastrtps\n'}
+[5.761250] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/detail/tracked_detection3_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.761331] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/detail/tracked_detection3_d_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.761476] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.762366] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/lib/libtracking_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.763093] (tracking_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/kishoreyogaraj/tracking_ws/install/tracking_msgs/lib/libtracking_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.763243] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs\n'}
+[5.763363] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg\n'}
+[5.763430] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/detail\n'}
+[5.763564] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/detail/tracked_detection3_d__type_support.cpp\n'}
+[5.763694] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/detail/tracked_detection3_d_array__type_support.cpp\n'}
+[5.763798] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/detail/tracked_detection3_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.763923] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/include/tracking_msgs/tracking_msgs/msg/detail/tracked_detection3_d_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.764673] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/lib/libtracking_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[5.765583] (tracking_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/kishoreyogaraj/tracking_ws/install/tracking_msgs/lib/libtracking_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.765971] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/lib/libtracking_msgs__rosidl_typesupport_cpp.so\n'}
+[5.766484] (tracking_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/kishoreyogaraj/tracking_ws/install/tracking_msgs/lib/libtracking_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[5.766714] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/environment/pythonpath.sh\n'}
+[5.766812] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/environment/pythonpath.dsv\n'}
+[5.767522] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/local/lib/python3.10/dist-packages/tracking_msgs-0.0.0-py3.10.egg-info\n'}
+[5.767725] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/local/lib/python3.10/dist-packages/tracking_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[5.767969] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/local/lib/python3.10/dist-packages/tracking_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[5.768155] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/local/lib/python3.10/dist-packages/tracking_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[5.768323] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/local/lib/python3.10/dist-packages/tracking_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[5.768539] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/local/lib/python3.10/dist-packages/tracking_msgs\n'}
+[5.768737] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/local/lib/python3.10/dist-packages/tracking_msgs/msg\n'}
+[5.768852] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/local/lib/python3.10/dist-packages/tracking_msgs/msg/_tracked_detection3_d.py\n'}
+[5.769016] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/local/lib/python3.10/dist-packages/tracking_msgs/msg/_tracked_detection3_d_s.c\n'}
+[5.769182] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/local/lib/python3.10/dist-packages/tracking_msgs/msg/_tracked_detection3_d_array.py\n'}
+[5.769352] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/local/lib/python3.10/dist-packages/tracking_msgs/msg/__init__.py\n'}
+[5.769514] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/local/lib/python3.10/dist-packages/tracking_msgs/msg/_tracked_detection3_d_array_s.c\n'}
+[5.769690] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/local/lib/python3.10/dist-packages/tracking_msgs/tracking_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.769875] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/local/lib/python3.10/dist-packages/tracking_msgs/_tracking_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.770048] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/local/lib/python3.10/dist-packages/tracking_msgs/tracking_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.770231] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/local/lib/python3.10/dist-packages/tracking_msgs/__init__.py\n'}
+[5.770367] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/local/lib/python3.10/dist-packages/tracking_msgs/_tracking_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.770577] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/local/lib/python3.10/dist-packages/tracking_msgs/tracking_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.770762] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/local/lib/python3.10/dist-packages/tracking_msgs/_tracking_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[5.770920] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/local/lib/python3.10/dist-packages/tracking_msgs/libtracking_msgs__rosidl_generator_py.so\n'}
+[5.811074] (-) TimerEvent: {}
+[5.817415] (tracking_msgs) StdoutLine: {'line': b"Listing '/home/kishoreyogaraj/tracking_ws/install/tracking_msgs/local/lib/python3.10/dist-packages/tracking_msgs'...\n"}
+[5.817740] (tracking_msgs) StdoutLine: {'line': b"Compiling '/home/kishoreyogaraj/tracking_ws/install/tracking_msgs/local/lib/python3.10/dist-packages/tracking_msgs/__init__.py'...\n"}
+[5.818075] (tracking_msgs) StdoutLine: {'line': b"Listing '/home/kishoreyogaraj/tracking_ws/install/tracking_msgs/local/lib/python3.10/dist-packages/tracking_msgs/msg'...\n"}
+[5.818256] (tracking_msgs) StdoutLine: {'line': b"Compiling '/home/kishoreyogaraj/tracking_ws/install/tracking_msgs/local/lib/python3.10/dist-packages/tracking_msgs/msg/__init__.py'...\n"}
+[5.818401] (tracking_msgs) StdoutLine: {'line': b"Compiling '/home/kishoreyogaraj/tracking_ws/install/tracking_msgs/local/lib/python3.10/dist-packages/tracking_msgs/msg/_tracked_detection3_d.py'...\n"}
+[5.818557] (tracking_msgs) StdoutLine: {'line': b"Compiling '/home/kishoreyogaraj/tracking_ws/install/tracking_msgs/local/lib/python3.10/dist-packages/tracking_msgs/msg/_tracked_detection3_d_array.py'...\n"}
+[5.823907] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/local/lib/python3.10/dist-packages/tracking_msgs/tracking_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.824178] (tracking_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/kishoreyogaraj/tracking_ws/install/tracking_msgs/local/lib/python3.10/dist-packages/tracking_msgs/tracking_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.824417] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/local/lib/python3.10/dist-packages/tracking_msgs/tracking_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.824842] (tracking_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/kishoreyogaraj/tracking_ws/install/tracking_msgs/local/lib/python3.10/dist-packages/tracking_msgs/tracking_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.825128] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/local/lib/python3.10/dist-packages/tracking_msgs/tracking_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.825553] (tracking_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/kishoreyogaraj/tracking_ws/install/tracking_msgs/local/lib/python3.10/dist-packages/tracking_msgs/tracking_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.826280] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/lib/libtracking_msgs__rosidl_generator_py.so\n'}
+[5.826843] (tracking_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/kishoreyogaraj/tracking_ws/install/tracking_msgs/lib/libtracking_msgs__rosidl_generator_py.so" to ""\n'}
+[5.827058] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/msg/TrackedDetection3D.idl\n'}
+[5.827269] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/msg/TrackedDetection3DArray.idl\n'}
+[5.827432] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/msg/TrackedDetection3D.msg\n'}
+[5.827681] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/msg/TrackedDetection3DArray.msg\n'}
+[5.827805] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/ament_index/resource_index/package_run_dependencies/tracking_msgs\n'}
+[5.827900] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/ament_index/resource_index/parent_prefix_path/tracking_msgs\n'}
+[5.827967] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/environment/ament_prefix_path.sh\n'}
+[5.828087] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/environment/ament_prefix_path.dsv\n'}
+[5.828150] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/environment/path.sh\n'}
+[5.828216] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/environment/path.dsv\n'}
+[5.828320] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/local_setup.bash\n'}
+[5.828424] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/local_setup.sh\n'}
+[5.828496] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/local_setup.zsh\n'}
+[5.828626] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/local_setup.dsv\n'}
+[5.828757] (tracking_msgs) StdoutLine: {'line': b'-- Installing: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/package.dsv\n'}
+[5.828920] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/ament_index/resource_index/packages/tracking_msgs\n'}
+[5.829196] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/cmake/export_tracking_msgs__rosidl_generator_cExport.cmake\n'}
+[5.829325] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/cmake/export_tracking_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.829479] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/cmake/export_tracking_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.829586] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/cmake/export_tracking_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.829776] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/cmake/tracking_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.829867] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/cmake/tracking_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.830043] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/cmake/tracking_msgs__rosidl_typesupport_cExport.cmake\n'}
+[5.830172] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/cmake/tracking_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.830306] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/cmake/export_tracking_msgs__rosidl_generator_cppExport.cmake\n'}
+[5.830705] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/cmake/export_tracking_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.830837] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/cmake/export_tracking_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.831212] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/cmake/tracking_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.831337] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/cmake/tracking_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.831603] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/cmake/tracking_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[5.831729] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/cmake/tracking_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.831920] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/cmake/export_tracking_msgs__rosidl_generator_pyExport.cmake\n'}
+[5.832100] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/cmake/export_tracking_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.832254] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[5.832403] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.832601] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.832718] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.832818] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.832917] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.833022] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.833122] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/cmake/tracking_msgsConfig.cmake\n'}
+[5.833221] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/cmake/tracking_msgsConfig-version.cmake\n'}
+[5.833321] (tracking_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kishoreyogaraj/tracking_ws/install/tracking_msgs/share/tracking_msgs/package.xml\n'}
+[5.835494] (tracking_msgs) CommandEnded: {'returncode': 0}
+[5.911156] (-) TimerEvent: {}
+[5.927181] (tracking_msgs) JobEnded: {'identifier': 'tracking_msgs', 'rc': 0}
+[5.927876] (-) EventReactorShutdown: {}

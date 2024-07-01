@@ -1,0 +1,142 @@
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+-- Found vision_msgs: 4.1.1 (/opt/ros/humble/share/vision_msgs/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kishoreyogaraj/tracking_ws/build/tracking_msgs
+[  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  2%] Built target ament_cmake_python_copy_tracking_msgs
+running egg_info
+writing tracking_msgs.egg-info/PKG-INFO
+writing dependency_links to tracking_msgs.egg-info/dependency_links.txt
+writing top-level names to tracking_msgs.egg-info/top_level.txt
+reading manifest file 'tracking_msgs.egg-info/SOURCES.txt'
+writing manifest file 'tracking_msgs.egg-info/SOURCES.txt'
+[  2%] Built target ament_cmake_python_build_tracking_msgs_egg
+[  2%] Built target tracking_msgs__cpp
+[  4%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[  7%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[35m[1mConsolidate compiler generated dependencies of target tracking_msgs__rosidl_generator_c[0m
+[  9%] [32mBuilding C object CMakeFiles/tracking_msgs__rosidl_generator_c.dir/rosidl_generator_c/tracking_msgs/msg/detail/obstacle__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/tracking_msgs__rosidl_generator_c.dir/rosidl_generator_c/tracking_msgs/msg/detail/tracked_detection3_d__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/tracking_msgs__rosidl_generator_c.dir/rosidl_generator_c/tracking_msgs/msg/detail/tracked_obstacle_list__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/tracking_msgs__rosidl_generator_c.dir/rosidl_generator_c/tracking_msgs/msg/detail/tracked_detection3_d_array__functions.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/tracking_msgs__rosidl_generator_c.dir/rosidl_generator_c/tracking_msgs/msg/detail/tracked_obstacle__functions.c.o[0m
+In file included from [01m[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_generator_c/tracking_msgs/msg/detail/tracked_obstacle__functions.h:19[m[K,
+                 from [01m[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_generator_c/tracking_msgs/msg/detail/tracked_obstacle__functions.c:4[m[K:
+[01m[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_generator_c/tracking_msgs/msg/detail/tracked_obstacle__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Ktracking_msgs/msg/detail/header__struct.h: No such file or directory
+   22 | #include [01;31m[K"tracking_msgs/msg/detail/header__struct.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_generator_c/tracking_msgs/msg/detail/obstacle__functions.h:19[m[K,
+                 from [01m[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_generator_c/tracking_msgs/msg/detail/obstacle__functions.c:4[m[K:
+[01m[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_generator_c/tracking_msgs/msg/detail/obstacle__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Ktracking_msgs/msg/detail/header__struct.h: No such file or directory
+   22 | #include [01;31m[K"tracking_msgs/msg/detail/header__struct.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+In file included from [01m[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_generator_c/tracking_msgs/msg/detail/tracked_obstacle_list__functions.h:19[m[K,
+                 from [01m[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_generator_c/tracking_msgs/msg/detail/tracked_obstacle_list__functions.c:4[m[K:
+[01m[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_generator_c/tracking_msgs/msg/detail/tracked_obstacle_list__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Ktracking_msgs/msg/detail/header__struct.h: No such file or directory
+   22 | #include [01;31m[K"tracking_msgs/msg/detail/header__struct.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/tracking_msgs__rosidl_generator_c.dir/build.make:305: CMakeFiles/tracking_msgs__rosidl_generator_c.dir/rosidl_generator_c/tracking_msgs/msg/detail/tracked_obstacle__functions.c.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/tracking_msgs__rosidl_generator_c.dir/build.make:291: CMakeFiles/tracking_msgs__rosidl_generator_c.dir/rosidl_generator_c/tracking_msgs/msg/detail/obstacle__functions.c.o] Error 1
+gmake[2]: *** [CMakeFiles/tracking_msgs__rosidl_generator_c.dir/build.make:319: CMakeFiles/tracking_msgs__rosidl_generator_c.dir/rosidl_generator_c/tracking_msgs/msg/detail/tracked_obstacle_list__functions.c.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/tracking_msgs__rosidl_generator_c.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[35m[1mConsolidate compiler generated dependencies of target tracking_msgs__rosidl_typesupport_cpp[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tracking_msgs/msg/tracked_detection3_d__type_support.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tracking_msgs/msg/obstacle__type_support.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tracking_msgs/msg/tracked_obstacle__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tracking_msgs/msg/tracked_obstacle_list__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tracking_msgs/msg/tracked_detection3_d_array__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tracking_msgs/msg/tracked_obstacle_state__type_support.cpp.o[0m
+In file included from [01m[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_typesupport_cpp/tracking_msgs/msg/tracked_obstacle__type_support.cpp:7[m[K:
+[01m[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_generator_cpp/tracking_msgs/msg/detail/tracked_obstacle__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Ktracking_msgs/msg/detail/header__struct.hpp: No such file or directory
+   20 | #include [01;31m[K"tracking_msgs/msg/detail/header__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_typesupport_cpp/tracking_msgs/msg/tracked_obstacle_state__type_support.cpp:7[m[K:
+[01m[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_generator_cpp/tracking_msgs/msg/detail/tracked_obstacle_state__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Ktracking_msgs/msg/detail/header__struct.hpp: No such file or directory
+   20 | #include [01;31m[K"tracking_msgs/msg/detail/header__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_typesupport_cpp/tracking_msgs/msg/obstacle__type_support.cpp:7[m[K:
+[01m[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_generator_cpp/tracking_msgs/msg/detail/obstacle__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Ktracking_msgs/msg/detail/header__struct.hpp: No such file or directory
+   20 | #include [01;31m[K"tracking_msgs/msg/detail/header__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+In file included from [01m[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_typesupport_cpp/tracking_msgs/msg/tracked_obstacle_list__type_support.cpp:7[m[K:
+[01m[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_generator_cpp/tracking_msgs/msg/detail/tracked_obstacle_list__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Ktracking_msgs/msg/detail/header__struct.hpp: No such file or directory
+   20 | #include [01;31m[K"tracking_msgs/msg/detail/header__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/tracking_msgs__rosidl_typesupport_cpp.dir/build.make:226: CMakeFiles/tracking_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tracking_msgs/msg/tracked_obstacle__type_support.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/tracking_msgs__rosidl_typesupport_cpp.dir/build.make:212: CMakeFiles/tracking_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tracking_msgs/msg/obstacle__type_support.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/tracking_msgs__rosidl_typesupport_cpp.dir/build.make:254: CMakeFiles/tracking_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tracking_msgs/msg/tracked_obstacle_state__type_support.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/tracking_msgs__rosidl_typesupport_cpp.dir/build.make:240: CMakeFiles/tracking_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tracking_msgs/msg/tracked_obstacle_list__type_support.cpp.o] Error 1
+[35m[1mConsolidate compiler generated dependencies of target tracking_msgs__rosidl_typesupport_introspection_cpp[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tracking_msgs/msg/detail/tracked_detection3_d_array__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tracking_msgs/msg/detail/obstacle__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tracking_msgs/msg/detail/tracked_detection3_d__type_support.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target tracking_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tracking_msgs/msg/detail/tracked_obstacle_list__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tracking_msgs/msg/detail/tracked_obstacle__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tracking_msgs/msg/detail/dds_fastrtps/tracked_detection3_d__type_support.cpp.o[0m
+In file included from [01m[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_typesupport_introspection_cpp/tracking_msgs/msg/detail/obstacle__type_support.cpp:12[m[K:
+[01m[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_generator_cpp/tracking_msgs/msg/detail/obstacle__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Ktracking_msgs/msg/detail/header__struct.hpp: No such file or directory
+   20 | #include [01;31m[K"tracking_msgs/msg/detail/header__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_typesupport_introspection_cpp/tracking_msgs/msg/detail/tracked_obstacle_list__type_support.cpp:12[m[K:
+[01m[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_generator_cpp/tracking_msgs/msg/detail/tracked_obstacle_list__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Ktracking_msgs/msg/detail/header__struct.hpp: No such file or directory
+   20 | #include [01;31m[K"tracking_msgs/msg/detail/header__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_typesupport_introspection_cpp/tracking_msgs/msg/detail/tracked_obstacle__type_support.cpp:12[m[K:
+[01m[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_generator_cpp/tracking_msgs/msg/detail/tracked_obstacle__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Ktracking_msgs/msg/detail/header__struct.hpp: No such file or directory
+   20 | #include [01;31m[K"tracking_msgs/msg/detail/header__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/tracking_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:260: CMakeFiles/tracking_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tracking_msgs/msg/detail/tracked_obstacle_list__type_support.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+compilation terminated.
+gmake[2]: *** [CMakeFiles/tracking_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:246: CMakeFiles/tracking_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tracking_msgs/msg/detail/tracked_obstacle__type_support.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/tracking_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:232: CMakeFiles/tracking_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tracking_msgs/msg/detail/obstacle__type_support.cpp.o] Error 1
+[ 32%] [32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tracking_msgs/msg/detail/dds_fastrtps/tracked_detection3_d_array__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tracking_msgs/msg/detail/dds_fastrtps/obstacle__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tracking_msgs/msg/detail/dds_fastrtps/tracked_obstacle__type_support.cpp.o[0m
+In file included from [01m[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_typesupport_fastrtps_cpp/tracking_msgs/msg/detail/tracked_obstacle__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+                 from [01m[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_typesupport_fastrtps_cpp/tracking_msgs/msg/detail/dds_fastrtps/tracked_obstacle__type_support.cpp:4[m[K:
+[01m[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_generator_cpp/tracking_msgs/msg/detail/tracked_obstacle__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Ktracking_msgs/msg/detail/header__struct.hpp: No such file or directory
+   20 | #include [01;31m[K"tracking_msgs/msg/detail/header__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/tracking_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:246: CMakeFiles/tracking_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tracking_msgs/msg/detail/dds_fastrtps/tracked_obstacle__type_support.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_typesupport_fastrtps_cpp/tracking_msgs/msg/detail/obstacle__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+                 from [01m[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_typesupport_fastrtps_cpp/tracking_msgs/msg/detail/dds_fastrtps/obstacle__type_support.cpp:4[m[K:
+[01m[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_generator_cpp/tracking_msgs/msg/detail/obstacle__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Ktracking_msgs/msg/detail/header__struct.hpp: No such file or directory
+   20 | #include [01;31m[K"tracking_msgs/msg/detail/header__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/tracking_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:232: CMakeFiles/tracking_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tracking_msgs/msg/detail/dds_fastrtps/obstacle__type_support.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/tracking_msgs__rosidl_typesupport_cpp.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/tracking_msgs__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/tracking_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

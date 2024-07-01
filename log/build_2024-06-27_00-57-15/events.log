@@ -1,0 +1,219 @@
+[0.000000] (-) TimerEvent: {}
+[0.000128] (tracking) JobQueued: {'identifier': 'tracking', 'dependencies': OrderedDict()}
+[0.000313] (tracking_msgs) JobQueued: {'identifier': 'tracking_msgs', 'dependencies': OrderedDict()}
+[0.000503] (tracking) JobStarted: {'identifier': 'tracking'}
+[0.007944] (tracking_msgs) JobStarted: {'identifier': 'tracking_msgs'}
+[0.098935] (-) TimerEvent: {}
+[0.199184] (-) TimerEvent: {}
+[0.299443] (-) TimerEvent: {}
+[0.299813] (tracking_msgs) JobProgress: {'identifier': 'tracking_msgs', 'progress': 'cmake'}
+[0.300674] (tracking_msgs) JobProgress: {'identifier': 'tracking_msgs', 'progress': 'build'}
+[0.301453] (tracking_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kishoreyogaraj/tracking_ws/build/tracking_msgs', '--', '-j8', '-l8'], 'cwd': '/home/kishoreyogaraj/tracking_ws/build/tracking_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'kishoreyogaraj'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kishoreyogaraj/tracking_ws/install/tracking_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kishoreyogaraj'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.90.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1629'), ('SYSTEMD_EXEC_PID', '1799'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4630'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kishoreyogaraj/tracking_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kishoreyogaraj'), ('JOURNAL_STREAM', '8:28407'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kishoreyogaraj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kishoreyogaraj/.local/bin:/opt/ros/humble/bin:/home/kishoreyogaraj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kishoreyogaraj-MacBookPro:@/tmp/.ICE-unix/1769,unix/kishoreyogaraj-MacBookPro:/tmp/.ICE-unix/1769'), ('INVOCATION_ID', 'd8e48e4898d14ea7a265fc27f51984af'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Q35YP2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a3a6b15ac3.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kishoreyogaraj/tracking_ws/install/tracking_msgs:/home/kishoreyogaraj/tracking_ws/install/tracking:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kishoreyogaraj/tracking_ws/build/tracking_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kishoreyogaraj/tracking_ws/install/tracking_msgs/local/lib/python3.10/dist-packages:/home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kishoreyogaraj/tracking_ws/install/tracking_msgs:/home/kishoreyogaraj/tracking_ws/install/tracking:/opt/ros/humble')]), 'shell': False}
+[0.335546] (tracking_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399549] (-) TimerEvent: {}
+[0.489092] (tracking_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.491182] (tracking_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.494163] (tracking_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.499625] (-) TimerEvent: {}
+[0.525204] (tracking_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.553370] (tracking_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.599718] (-) TimerEvent: {}
+[0.617014] (tracking_msgs) StdoutLine: {'line': b'-- Found vision_msgs: 4.1.1 (/opt/ros/humble/share/vision_msgs/cmake)\n'}
+[0.699811] (-) TimerEvent: {}
+[0.701491] (tracking) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/tracking', 'build', '--build-base', '/home/kishoreyogaraj/tracking_ws/build/tracking/build', 'install', '--record', '/home/kishoreyogaraj/tracking_ws/build/tracking/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kishoreyogaraj/tracking_ws/src/tracking', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_CA:en', 'USER': 'kishoreyogaraj', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/kishoreyogaraj/tracking_ws/install/tracking_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kishoreyogaraj', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'TERM_PROGRAM_VERSION': '1.90.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1629', 'SYSTEMD_EXEC_PID': '1799', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4630', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kishoreyogaraj/tracking_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kishoreyogaraj', 'JOURNAL_STREAM': '8:28407', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kishoreyogaraj', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/kishoreyogaraj/.local/bin:/opt/ros/humble/bin:/home/kishoreyogaraj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kishoreyogaraj-MacBookPro:@/tmp/.ICE-unix/1769,unix/kishoreyogaraj-MacBookPro:/tmp/.ICE-unix/1769', 'INVOCATION_ID': 'd8e48e4898d14ea7a265fc27f51984af', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_CA.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Q35YP2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-a3a6b15ac3.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kishoreyogaraj/tracking_ws/install/tracking_msgs:/home/kishoreyogaraj/tracking_ws/install/tracking:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kishoreyogaraj/tracking_ws/build/tracking', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kishoreyogaraj/tracking_ws/build/tracking/prefix_override:/home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages:/home/kishoreyogaraj/tracking_ws/install/tracking_msgs/local/lib/python3.10/dist-packages:/home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/kishoreyogaraj/tracking_ws/install/tracking_msgs'}, 'shell': False}
+[0.799914] (-) TimerEvent: {}
+[0.900237] (-) TimerEvent: {}
+[0.968191] (tracking) StdoutLine: {'line': b'running egg_info\n'}
+[0.968841] (tracking) StdoutLine: {'line': b'writing ../../build/tracking/tracking.egg-info/PKG-INFO\n'}
+[0.969069] (tracking) StdoutLine: {'line': b'writing dependency_links to ../../build/tracking/tracking.egg-info/dependency_links.txt\n'}
+[0.969257] (tracking) StdoutLine: {'line': b'writing entry points to ../../build/tracking/tracking.egg-info/entry_points.txt\n'}
+[0.969430] (tracking) StdoutLine: {'line': b'writing requirements to ../../build/tracking/tracking.egg-info/requires.txt\n'}
+[0.969595] (tracking) StdoutLine: {'line': b'writing top-level names to ../../build/tracking/tracking.egg-info/top_level.txt\n'}
+[0.971659] (tracking) StdoutLine: {'line': b"reading manifest file '../../build/tracking/tracking.egg-info/SOURCES.txt'\n"}
+[0.972654] (tracking) StdoutLine: {'line': b"writing manifest file '../../build/tracking/tracking.egg-info/SOURCES.txt'\n"}
+[0.972856] (tracking) StdoutLine: {'line': b'running build\n'}
+[0.972984] (tracking) StdoutLine: {'line': b'running build_py\n'}
+[0.973940] (tracking) StdoutLine: {'line': b'running install\n'}
+[0.974240] (tracking) StdoutLine: {'line': b'running install_lib\n'}
+[0.975974] (tracking) StdoutLine: {'line': b'running install_data\n'}
+[0.976158] (tracking) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.977719] (tracking) StdoutLine: {'line': b"removing '/home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.977940] (tracking) StdoutLine: {'line': b'Copying ../../build/tracking/tracking.egg-info to /home/kishoreyogaraj/tracking_ws/install/tracking/lib/python3.10/site-packages/tracking-0.0.0-py3.10.egg-info\n'}
+[0.978837] (tracking) StdoutLine: {'line': b'running install_scripts\n'}
+[0.997489] (tracking) StdoutLine: {'line': b'Installing detection_publisher script to /home/kishoreyogaraj/tracking_ws/install/tracking/lib/tracking\n'}
+[0.997728] (tracking) StdoutLine: {'line': b'Installing tracker_node script to /home/kishoreyogaraj/tracking_ws/install/tracking/lib/tracking\n'}
+[0.998531] (tracking) StdoutLine: {'line': b"writing list of installed files to '/home/kishoreyogaraj/tracking_ws/build/tracking/install.log'\n"}
+[1.000318] (-) TimerEvent: {}
+[1.023653] (tracking) CommandEnded: {'returncode': 0}
+[1.038690] (tracking) JobEnded: {'identifier': 'tracking', 'rc': 0}
+[1.079012] (tracking_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.100433] (-) TimerEvent: {}
+[1.200699] (-) TimerEvent: {}
+[1.300966] (-) TimerEvent: {}
+[1.353461] (tracking_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.401053] (-) TimerEvent: {}
+[1.501345] (-) TimerEvent: {}
+[1.601606] (-) TimerEvent: {}
+[1.701851] (-) TimerEvent: {}
+[1.713648] (tracking_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.738690] (tracking_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.761244] (tracking_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.761392] (tracking_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.761467] (tracking_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.801969] (-) TimerEvent: {}
+[1.812658] (tracking_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.861246] (tracking_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.864392] (tracking_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/kishoreyogaraj/tracking_ws/build/tracking_msgs\n'}
+[1.888882] (tracking_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.898747] (tracking_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.902066] (-) TimerEvent: {}
+[1.908322] (tracking_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_tracking_msgs\n'}
+[2.002190] (-) TimerEvent: {}
+[2.102429] (-) TimerEvent: {}
+[2.195067] (tracking_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.195909] (tracking_msgs) StdoutLine: {'line': b'writing tracking_msgs.egg-info/PKG-INFO\n'}
+[2.196128] (tracking_msgs) StdoutLine: {'line': b'writing dependency_links to tracking_msgs.egg-info/dependency_links.txt\n'}
+[2.196357] (tracking_msgs) StdoutLine: {'line': b'writing top-level names to tracking_msgs.egg-info/top_level.txt\n'}
+[2.199670] (tracking_msgs) StdoutLine: {'line': b"reading manifest file 'tracking_msgs.egg-info/SOURCES.txt'\n"}
+[2.201012] (tracking_msgs) StdoutLine: {'line': b"writing manifest file 'tracking_msgs.egg-info/SOURCES.txt'\n"}
+[2.202517] (-) TimerEvent: {}
+[2.229851] (tracking_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_tracking_msgs_egg\n'}
+[2.302613] (-) TimerEvent: {}
+[2.402897] (-) TimerEvent: {}
+[2.497595] (tracking_msgs) StdoutLine: {'line': b'[  2%] Built target tracking_msgs__cpp\n'}
+[2.502996] (-) TimerEvent: {}
+[2.519867] (tracking_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.520237] (tracking_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.556319] (tracking_msgs) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.564970] (tracking_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tracking_msgs__rosidl_generator_c\x1b[0m\n'}
+[2.584288] (tracking_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/tracking_msgs__rosidl_generator_c.dir/rosidl_generator_c/tracking_msgs/msg/detail/obstacle__functions.c.o\x1b[0m\n'}
+[2.585583] (tracking_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/tracking_msgs__rosidl_generator_c.dir/rosidl_generator_c/tracking_msgs/msg/detail/tracked_detection3_d__functions.c.o\x1b[0m\n'}
+[2.585781] (tracking_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/tracking_msgs__rosidl_generator_c.dir/rosidl_generator_c/tracking_msgs/msg/detail/tracked_obstacle_list__functions.c.o\x1b[0m\n'}
+[2.586868] (tracking_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/tracking_msgs__rosidl_generator_c.dir/rosidl_generator_c/tracking_msgs/msg/detail/tracked_detection3_d_array__functions.c.o\x1b[0m\n'}
+[2.596273] (tracking_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/tracking_msgs__rosidl_generator_c.dir/rosidl_generator_c/tracking_msgs/msg/detail/tracked_obstacle__functions.c.o\x1b[0m\n'}
+[2.603085] (-) TimerEvent: {}
+[2.624472] (tracking_msgs) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_generator_c/tracking_msgs/msg/detail/tracked_obstacle__functions.h:19\x1b[m\x1b[K,\n'}
+[2.624918] (tracking_msgs) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_generator_c/tracking_msgs/msg/detail/tracked_obstacle__functions.c:4\x1b[m\x1b[K:\n'}
+[2.625048] (tracking_msgs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_generator_c/tracking_msgs/msg/detail/tracked_obstacle__struct.h:22:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ktracking_msgs/msg/detail/header__struct.h: No such file or directory\n'}
+[2.626409] (tracking_msgs) StderrLine: {'line': b'   22 | #include \x1b[01;31m\x1b[K"tracking_msgs/msg/detail/header__struct.h"\x1b[m\x1b[K\n'}
+[2.626574] (tracking_msgs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.626693] (tracking_msgs) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_generator_c/tracking_msgs/msg/detail/obstacle__functions.h:19\x1b[m\x1b[K,\n'}
+[2.626821] (tracking_msgs) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_generator_c/tracking_msgs/msg/detail/obstacle__functions.c:4\x1b[m\x1b[K:\n'}
+[2.626934] (tracking_msgs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_generator_c/tracking_msgs/msg/detail/obstacle__struct.h:22:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ktracking_msgs/msg/detail/header__struct.h: No such file or directory\n'}
+[2.627064] (tracking_msgs) StderrLine: {'line': b'   22 | #include \x1b[01;31m\x1b[K"tracking_msgs/msg/detail/header__struct.h"\x1b[m\x1b[K\n'}
+[2.627185] (tracking_msgs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.627298] (tracking_msgs) StderrLine: {'line': b'compilation terminated.\n'}
+[2.627410] (tracking_msgs) StderrLine: {'line': b'compilation terminated.\n'}
+[2.627561] (tracking_msgs) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_generator_c/tracking_msgs/msg/detail/tracked_obstacle_list__functions.h:19\x1b[m\x1b[K,\n'}
+[2.627677] (tracking_msgs) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_generator_c/tracking_msgs/msg/detail/tracked_obstacle_list__functions.c:4\x1b[m\x1b[K:\n'}
+[2.627796] (tracking_msgs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_generator_c/tracking_msgs/msg/detail/tracked_obstacle_list__struct.h:22:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ktracking_msgs/msg/detail/header__struct.h: No such file or directory\n'}
+[2.627915] (tracking_msgs) StderrLine: {'line': b'   22 | #include \x1b[01;31m\x1b[K"tracking_msgs/msg/detail/header__struct.h"\x1b[m\x1b[K\n'}
+[2.628032] (tracking_msgs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.628147] (tracking_msgs) StderrLine: {'line': b'compilation terminated.\n'}
+[2.628257] (tracking_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/tracking_msgs__rosidl_generator_c.dir/build.make:305: CMakeFiles/tracking_msgs__rosidl_generator_c.dir/rosidl_generator_c/tracking_msgs/msg/detail/tracked_obstacle__functions.c.o] Error 1\n'}
+[2.628372] (tracking_msgs) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[2.628502] (tracking_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/tracking_msgs__rosidl_generator_c.dir/build.make:291: CMakeFiles/tracking_msgs__rosidl_generator_c.dir/rosidl_generator_c/tracking_msgs/msg/detail/obstacle__functions.c.o] Error 1\n'}
+[2.628627] (tracking_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/tracking_msgs__rosidl_generator_c.dir/build.make:319: CMakeFiles/tracking_msgs__rosidl_generator_c.dir/rosidl_generator_c/tracking_msgs/msg/detail/tracked_obstacle_list__functions.c.o] Error 1\n'}
+[2.703198] (-) TimerEvent: {}
+[2.724123] (tracking_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/tracking_msgs__rosidl_generator_c.dir/all] Error 2\n'}
+[2.724346] (tracking_msgs) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[2.803309] (-) TimerEvent: {}
+[2.903665] (-) TimerEvent: {}
+[3.003952] (-) TimerEvent: {}
+[3.011966] (tracking_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tracking_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.031863] (tracking_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tracking_msgs/msg/tracked_detection3_d__type_support.cpp.o\x1b[0m\n'}
+[3.032257] (tracking_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tracking_msgs/msg/obstacle__type_support.cpp.o\x1b[0m\n'}
+[3.033762] (tracking_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tracking_msgs/msg/tracked_obstacle__type_support.cpp.o\x1b[0m\n'}
+[3.034491] (tracking_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tracking_msgs/msg/tracked_obstacle_list__type_support.cpp.o\x1b[0m\n'}
+[3.035578] (tracking_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tracking_msgs/msg/tracked_detection3_d_array__type_support.cpp.o\x1b[0m\n'}
+[3.045609] (tracking_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tracking_msgs/msg/tracked_obstacle_state__type_support.cpp.o\x1b[0m\n'}
+[3.104045] (-) TimerEvent: {}
+[3.189371] (tracking_msgs) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_typesupport_cpp/tracking_msgs/msg/tracked_obstacle__type_support.cpp:7\x1b[m\x1b[K:\n'}
+[3.189700] (tracking_msgs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_generator_cpp/tracking_msgs/msg/detail/tracked_obstacle__struct.hpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ktracking_msgs/msg/detail/header__struct.hpp: No such file or directory\n'}
+[3.189841] (tracking_msgs) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"tracking_msgs/msg/detail/header__struct.hpp"\x1b[m\x1b[K\n'}
+[3.189979] (tracking_msgs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.190105] (tracking_msgs) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_typesupport_cpp/tracking_msgs/msg/tracked_obstacle_state__type_support.cpp:7\x1b[m\x1b[K:\n'}
+[3.190225] (tracking_msgs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_generator_cpp/tracking_msgs/msg/detail/tracked_obstacle_state__struct.hpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ktracking_msgs/msg/detail/header__struct.hpp: No such file or directory\n'}
+[3.190371] (tracking_msgs) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"tracking_msgs/msg/detail/header__struct.hpp"\x1b[m\x1b[K\n'}
+[3.190510] (tracking_msgs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.190641] (tracking_msgs) StderrLine: {'line': b'compilation terminated.\n'}
+[3.190771] (tracking_msgs) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_typesupport_cpp/tracking_msgs/msg/obstacle__type_support.cpp:7\x1b[m\x1b[K:\n'}
+[3.190903] (tracking_msgs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_generator_cpp/tracking_msgs/msg/detail/obstacle__struct.hpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ktracking_msgs/msg/detail/header__struct.hpp: No such file or directory\n'}
+[3.191036] (tracking_msgs) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"tracking_msgs/msg/detail/header__struct.hpp"\x1b[m\x1b[K\n'}
+[3.191168] (tracking_msgs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.191299] (tracking_msgs) StderrLine: {'line': b'compilation terminated.\n'}
+[3.191942] (tracking_msgs) StderrLine: {'line': b'compilation terminated.\n'}
+[3.192293] (tracking_msgs) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_typesupport_cpp/tracking_msgs/msg/tracked_obstacle_list__type_support.cpp:7\x1b[m\x1b[K:\n'}
+[3.192500] (tracking_msgs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_generator_cpp/tracking_msgs/msg/detail/tracked_obstacle_list__struct.hpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ktracking_msgs/msg/detail/header__struct.hpp: No such file or directory\n'}
+[3.192667] (tracking_msgs) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"tracking_msgs/msg/detail/header__struct.hpp"\x1b[m\x1b[K\n'}
+[3.192832] (tracking_msgs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.192998] (tracking_msgs) StderrLine: {'line': b'compilation terminated.\n'}
+[3.193156] (tracking_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/tracking_msgs__rosidl_typesupport_cpp.dir/build.make:226: CMakeFiles/tracking_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tracking_msgs/msg/tracked_obstacle__type_support.cpp.o] Error 1\n'}
+[3.193317] (tracking_msgs) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[3.193507] (tracking_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/tracking_msgs__rosidl_typesupport_cpp.dir/build.make:212: CMakeFiles/tracking_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tracking_msgs/msg/obstacle__type_support.cpp.o] Error 1\n'}
+[3.193674] (tracking_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/tracking_msgs__rosidl_typesupport_cpp.dir/build.make:254: CMakeFiles/tracking_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tracking_msgs/msg/tracked_obstacle_state__type_support.cpp.o] Error 1\n'}
+[3.193918] (tracking_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/tracking_msgs__rosidl_typesupport_cpp.dir/build.make:240: CMakeFiles/tracking_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tracking_msgs/msg/tracked_obstacle_list__type_support.cpp.o] Error 1\n'}
+[3.204191] (-) TimerEvent: {}
+[3.232973] (tracking_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tracking_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.256940] (tracking_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tracking_msgs/msg/detail/tracked_detection3_d_array__type_support.cpp.o\x1b[0m\n'}
+[3.257225] (tracking_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tracking_msgs/msg/detail/obstacle__type_support.cpp.o\x1b[0m\n'}
+[3.258639] (tracking_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tracking_msgs/msg/detail/tracked_detection3_d__type_support.cpp.o\x1b[0m\n'}
+[3.268785] (tracking_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tracking_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.270051] (tracking_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tracking_msgs/msg/detail/tracked_obstacle_list__type_support.cpp.o\x1b[0m\n'}
+[3.276491] (tracking_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tracking_msgs/msg/detail/tracked_obstacle__type_support.cpp.o\x1b[0m\n'}
+[3.293209] (tracking_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tracking_msgs/msg/detail/dds_fastrtps/tracked_detection3_d__type_support.cpp.o\x1b[0m\n'}
+[3.304291] (-) TimerEvent: {}
+[3.405141] (-) TimerEvent: {}
+[3.409537] (tracking_msgs) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_typesupport_introspection_cpp/tracking_msgs/msg/detail/obstacle__type_support.cpp:12\x1b[m\x1b[K:\n'}
+[3.410674] (tracking_msgs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_generator_cpp/tracking_msgs/msg/detail/obstacle__struct.hpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ktracking_msgs/msg/detail/header__struct.hpp: No such file or directory\n'}
+[3.412056] (tracking_msgs) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"tracking_msgs/msg/detail/header__struct.hpp"\x1b[m\x1b[K\n'}
+[3.413307] (tracking_msgs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.414491] (tracking_msgs) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_typesupport_introspection_cpp/tracking_msgs/msg/detail/tracked_obstacle_list__type_support.cpp:12\x1b[m\x1b[K:\n'}
+[3.414793] (tracking_msgs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_generator_cpp/tracking_msgs/msg/detail/tracked_obstacle_list__struct.hpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ktracking_msgs/msg/detail/header__struct.hpp: No such file or directory\n'}
+[3.414958] (tracking_msgs) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"tracking_msgs/msg/detail/header__struct.hpp"\x1b[m\x1b[K\n'}
+[3.415103] (tracking_msgs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.415246] (tracking_msgs) StderrLine: {'line': b'compilation terminated.\n'}
+[3.417361] (tracking_msgs) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_typesupport_introspection_cpp/tracking_msgs/msg/detail/tracked_obstacle__type_support.cpp:12\x1b[m\x1b[K:\n'}
+[3.417616] (tracking_msgs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_generator_cpp/tracking_msgs/msg/detail/tracked_obstacle__struct.hpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ktracking_msgs/msg/detail/header__struct.hpp: No such file or directory\n'}
+[3.417869] (tracking_msgs) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"tracking_msgs/msg/detail/header__struct.hpp"\x1b[m\x1b[K\n'}
+[3.418066] (tracking_msgs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.418234] (tracking_msgs) StderrLine: {'line': b'compilation terminated.\n'}
+[3.418393] (tracking_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/tracking_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:260: CMakeFiles/tracking_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tracking_msgs/msg/detail/tracked_obstacle_list__type_support.cpp.o] Error 1\n'}
+[3.418569] (tracking_msgs) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[3.418714] (tracking_msgs) StderrLine: {'line': b'compilation terminated.\n'}
+[3.419208] (tracking_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/tracking_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:246: CMakeFiles/tracking_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tracking_msgs/msg/detail/tracked_obstacle__type_support.cpp.o] Error 1\n'}
+[3.419754] (tracking_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/tracking_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:232: CMakeFiles/tracking_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tracking_msgs/msg/detail/obstacle__type_support.cpp.o] Error 1\n'}
+[3.433597] (tracking_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tracking_msgs/msg/detail/dds_fastrtps/tracked_detection3_d_array__type_support.cpp.o\x1b[0m\n'}
+[3.434023] (tracking_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tracking_msgs/msg/detail/dds_fastrtps/obstacle__type_support.cpp.o\x1b[0m\n'}
+[3.445630] (tracking_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/tracking_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tracking_msgs/msg/detail/dds_fastrtps/tracked_obstacle__type_support.cpp.o\x1b[0m\n'}
+[3.505249] (-) TimerEvent: {}
+[3.558974] (tracking_msgs) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_typesupport_fastrtps_cpp/tracking_msgs/msg/detail/tracked_obstacle__rosidl_typesupport_fastrtps_cpp.hpp:11\x1b[m\x1b[K,\n'}
+[3.559224] (tracking_msgs) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_typesupport_fastrtps_cpp/tracking_msgs/msg/detail/dds_fastrtps/tracked_obstacle__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[3.559373] (tracking_msgs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_generator_cpp/tracking_msgs/msg/detail/tracked_obstacle__struct.hpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ktracking_msgs/msg/detail/header__struct.hpp: No such file or directory\n'}
+[3.559522] (tracking_msgs) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"tracking_msgs/msg/detail/header__struct.hpp"\x1b[m\x1b[K\n'}
+[3.559667] (tracking_msgs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.559808] (tracking_msgs) StderrLine: {'line': b'compilation terminated.\n'}
+[3.560663] (tracking_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/tracking_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:246: CMakeFiles/tracking_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tracking_msgs/msg/detail/dds_fastrtps/tracked_obstacle__type_support.cpp.o] Error 1\n'}
+[3.560828] (tracking_msgs) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[3.561739] (tracking_msgs) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_typesupport_fastrtps_cpp/tracking_msgs/msg/detail/obstacle__rosidl_typesupport_fastrtps_cpp.hpp:11\x1b[m\x1b[K,\n'}
+[3.562004] (tracking_msgs) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_typesupport_fastrtps_cpp/tracking_msgs/msg/detail/dds_fastrtps/obstacle__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[3.562131] (tracking_msgs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kishoreyogaraj/tracking_ws/build/tracking_msgs/rosidl_generator_cpp/tracking_msgs/msg/detail/obstacle__struct.hpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ktracking_msgs/msg/detail/header__struct.hpp: No such file or directory\n'}
+[3.562246] (tracking_msgs) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"tracking_msgs/msg/detail/header__struct.hpp"\x1b[m\x1b[K\n'}
+[3.562355] (tracking_msgs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.562461] (tracking_msgs) StderrLine: {'line': b'compilation terminated.\n'}
+[3.563635] (tracking_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/tracking_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:232: CMakeFiles/tracking_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tracking_msgs/msg/detail/dds_fastrtps/obstacle__type_support.cpp.o] Error 1\n'}
+[3.605342] (-) TimerEvent: {}
+[3.656478] (tracking_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/tracking_msgs__rosidl_typesupport_cpp.dir/all] Error 2\n'}
+[3.705456] (-) TimerEvent: {}
+[3.805790] (-) TimerEvent: {}
+[3.906149] (-) TimerEvent: {}
+[4.006475] (-) TimerEvent: {}
+[4.106744] (-) TimerEvent: {}
+[4.132632] (tracking_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/tracking_msgs__rosidl_typesupport_introspection_cpp.dir/all] Error 2\n'}
+[4.172868] (tracking_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/tracking_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2\n'}
+[4.173122] (tracking_msgs) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.175379] (tracking_msgs) CommandEnded: {'returncode': 2}
+[4.206825] (-) TimerEvent: {}
+[4.307085] (-) TimerEvent: {}
+[4.344490] (tracking_msgs) JobEnded: {'identifier': 'tracking_msgs', 'rc': 2}
+[4.355212] (-) EventReactorShutdown: {}

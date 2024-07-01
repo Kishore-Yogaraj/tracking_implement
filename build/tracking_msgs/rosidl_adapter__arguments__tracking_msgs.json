@@ -1,0 +1,12 @@
+{
+  "package_name": "tracking_msgs",
+  "non_idl_tuples": [
+    "/home/kishoreyogaraj/tracking_ws/src/tracking_msgs:msg/TrackedDetection3D.msg",
+    "/home/kishoreyogaraj/tracking_ws/src/tracking_msgs:msg/TrackedDetection3DArray.msg",
+    "/home/kishoreyogaraj/tracking_ws/src/tracking_msgs:msg/Obstacle.msg",
+    "/home/kishoreyogaraj/tracking_ws/src/tracking_msgs:msg/TrackedObstacle.msg",
+    "/home/kishoreyogaraj/tracking_ws/src/tracking_msgs:msg/TrackedObstacleList.msg",
+    "/home/kishoreyogaraj/tracking_ws/src/tracking_msgs:msg/TrackedObstacleState.msg",
+    "/home/kishoreyogaraj/tracking_ws/src/tracking_msgs:msg/ObstacleList.msg"
+  ]
+}
